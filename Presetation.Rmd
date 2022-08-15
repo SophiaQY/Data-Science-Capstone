@@ -1,0 +1,38 @@
+---
+title: "Words Prediction Shiny App"
+author: "Sophia Yang"
+date: "2022-08-14"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+This presentation is to introduce the Shiny App built for Data Science Capstone final project. 
+
+The goal of this app is to make next word prediction based on the input words. We first built a corpus from the text selected from files provided by Swifkey including blogs, news, and twitters. Then N-gram nature language processing was used to build the predictive model.
+
+
+## Progress to Build Shinny App
+
+- Downloading the data from the source: "https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip"
+- Select proper sample data and clean the data. This is very important for future data processing since the original text data is unstructured.
+- Build corpus and N-gram and save to files.
+- The user input terms are extracted from the N-Grams and sorted according to the frequency in descending order, to predict the next possible words.
+- BUild the Shiny App to achieve our goal.
+
+
+## View of Shiny App:
+
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('preview.png')
+```
+
+## Links
+
+- Rpubs:
+- Github:
+- Shiny App:
