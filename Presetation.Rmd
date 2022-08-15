@@ -33,6 +33,6 @@ knitr::include_graphics('preview.png')
 
 ## Links
 
-- Rpubs:
-- Github:
-- Shiny App:
+- Rpubs: https://rpubs.com/SophiaQY/DSC
+- Github: https://github.com/SophiaQY/Data-Science-Capstone
+- Shiny App: https://sophiaqy.shinyapps.io/Words_Prediction/
